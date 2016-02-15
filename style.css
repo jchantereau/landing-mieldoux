@@ -1,0 +1,116 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.banner {
+  color: white;
+  background-size: cover !important;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content p {
+  font-size: 20px;
+  color: white;
+  padding-top: 18px;
+  margin-bottom: 18px;
+}
+.banner-content .btn {
+  padding: 12px 30px;
+  border-radius: 3px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.bottom {
+  position: relative;
+  color: white;
+  background-size: cover !important;
+  height: 25vh;
+  font-size: 18px;
+  align-items: center;
+  padding-top: 3vh;
+}
+
+.card {
+  padding: 60px;
+}
+
+.string-card {
+  padding: 40px;
+}
+
+.icon {
+  height: 70px;
+  width: auto;
+  margin: 30px;
+}
+
+#honeyjar {
+  height: 110px;
+  width: auto;
+  margin: 0px 30px 30px 30px;
+}
+
+.input {
+  color: black;
+}
+
+#footer {
+  font-size: 15px;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#copyright {
+  position: absolute;
+  left: 2vh;
+  bottom: 2vh;
+}
+
+#credential {
+  position: absolute;
+  right: 2.5vh;
+  bottom: 2.5vh;
+}
+
+/* ---------- SCROLL ARROW --------------- */
+
+
+
+.arrow {
+  padding: 20px;
+  box-shadow: 10px -10px 0 -4px #FFF395 inset;
+  position: relative;
+  display: inline-block;
+  transform: rotate(-45deg);
+  margin-bottom: 0;
+}
+
+.header {
+  height:calc(100% - 3em); /* subtract an amount of space for your arrow element */
+  background-color:#333;
+  width:100%;
+}
+
+.main {
+  width:100%;
+  position:relative;
+  background-color:#fff;
+}
+
+/* ---------- SCROLL ARROW --------------- */
